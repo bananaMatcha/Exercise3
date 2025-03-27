@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="icon" href="images/PowerIcon.png" type="image/x-icon">
+    <title>Televisions</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img id="iconP" src="images/PowerIcon.png" alt="Power Icon">
+        </a>
+        <h1>Appliances Energy Consumption</h1>
+        <nav class="navBar" id="myNavBar">
+            <a href="index.html">Home</a>
+            <a href="televisions.html" class="active">Televisions</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="button-container">
+            <button onclick="prevPage()" id="prevBtn">Previous</button>
+            <button onclick="nextPage()" id="nextBtn">Next</button>
+        </div>
+
+        <h2>Televisions</h2>
+        <p class="intro-text">
+            On average, a new television uses more energy than a fridge. Many homes also have more than one television, increasing the load on the electricity bill. Taking time to choose your next television wisely and using it efficiently can decrease your energy use and save you money.
+        </p>
+
+        <section class="story">
+            <h3>Energy Price Is Going Up</h3>
+            <p>
+                <img src="images/electricityPrice.png" alt="Energy Price">
+                <span class="text">Source: Australian Energy Regulator</span>
+            </p>
+            <p>
+                The price of electricity in Australia has increased by 56% over the past decade and is expected to continue rising. This is due to increasing costs of electricity generation, network maintenance, and government environmental schemes.
+            </p>
+            <p>
+                According to Endesa, <b>TVs are one of the most power-consuming appliances in households.</b>
+                <img src="images/appliancesConsumption.png" alt="TV Consumption">
+                <span class="text">Source: How can you calculate the electricity a house consumes? Endesa.</span>
+            </p>
+            <p>
+                To keep electricity costs down, it is crucial to use energy-efficient appliances. Here are some key insights to consider when selecting an energy-efficient television.
+            </p>
+        </section>
+
+        <h3>Key Data Insights for Choosing an Energy-Efficient TV</h3>
+
+        <section class="big-container">
+            <div class="container">
+                <b>77.25% of televisions use LCD (LED) screen technology</b>
+                <img src="images/screenTech.png" alt="Most prevalent screen tech">
+                <p>Which screen technology is the most prevalent?</p>
+            </div>
+
+            <div class="container">
+                <b>LCD consumes the least power among screen technologies</b>
+                <img src="images/screenTechVsPower.png" alt="Least power-consuming screen tech">
+                <p>Which screen tech consumes the least amount of power?</p>
+            </div>
+
+            <div class="container">
+                <b>65-70 inches is the most commonly used TV screen size</b>
+                <img src="images/The most prevalent screen size.png" alt="Most prevalent screen size">
+                <p>Which screen size is the most common?</p>
+            </div>
+
+            <div class="container">
+                <b>22-32 inch TVs have the highest customer ratings</b>
+                <img src="images/StarRateAndScreenSize.png" alt="Highest rated screen size">
+                <p>Which screen size receives the highest ratings?</p>
+            </div>
+
+            <div class="container">
+                <b>Higher star ratings correlate with lower power consumption</b>
+                <img src="images/powerVsStar.png" alt="Power consumption vs Star Rating">
+                <p>How does power consumption relate to Star Ratings?</p>
+            </div>
+
+            <div class="container">
+                <b>Larger screen sizes tend to consume more power</b>
+                <img src="images/screenSizeAndPower.png" alt="Power consumption by screen size">
+                <p>How does screen size impact power consumption?</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Han Nguyen. GenAI assisted in creating the JavaScript for the Next Page button.
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    color: #2c3e50;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+    background-color: hsl(36, 93%, 19%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 10px 10px;
+}
+
+#iconP {
+    max-width: 50px;
+}
+
+/* Navigation Bar */
+.navBar {
+    background-color: #fbe79c;
+    display: flex;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.navBar a {
+    color: #85653d;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+.navBar a:hover {
+    background-color: hsl(36, 93%, 36%);
+    color: #fbe79c;
+    border-radius: 5px;
+}
+
+.navBar a.active {
+    background-color: #f7a327;
+    color: #fbe79c;
+    border-radius: 5px;
+}
+
+/* Main Content */
+main {
+    padding: 30px;
+}
+
+h2, h3 {
+    text-align: center;
+    color: hsl(36, 93%, 19%);
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Image Styling */
+img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+    font-size: small;
+    color: gray;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Container Styles */
+.container {
+    background-color: #c7e59b;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(47, 92%, 60%);
+    color: hsl(33, 37%, 58%);
+    font-size: 1.2em;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: hsl(47, 92%, 40%);
+}
+
+/* Footer */
+footer {
+    background-color: hsl(36, 93%, 19%);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+}
