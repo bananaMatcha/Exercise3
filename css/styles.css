@@ -121,3 +121,48 @@ button:hover{
     justify-content: space-between;
     padding: 20px 0;
 }
+.container {
+    background-color: rgb(179, 231, 81);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.container b {
+    font-size: 1.75em;
+    display: block;
+    margin-bottom: 10px;
+    
+}
+.container p {
+    font-size: 1.2em;
+    font-style: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Image Styling */
+.container img {
+    min-width: 100%;
+    min-height: 300px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.chart-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(2, auto);  /* 2 rows */
+    gap: 20px; /* Adjust spacing */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.chart-item img {
+    width: 100%;
+    max-height: max-content;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
