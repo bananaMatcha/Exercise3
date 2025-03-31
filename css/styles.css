@@ -117,14 +117,14 @@ button{
     border: none;
     border-radius: 5px;
     background-color: hsl(47, 92%, 60%);
-    color: hsl(33, 37%, 58%);
+    color: hsl(0, 100%, 100%);
     font-size: 1.25em;
     padding: 10px;
     margin: 20px 20px;
     cursor: pointer;
     transition: background 0.3s ease;
     font-weight: bold;
-    text-transform: uppercase;
+
 }
 button:hover{
     background-color: hsl(47, 92%, 40%);
