@@ -1,10 +1,8 @@
-#iconP{
-    max-width: 50px;
-    max-height: 50px;
-    /* display on the top left corner */
-   
-    top: 10px;
-    left: 10px;
+#iconP {
+    max-width: 50px !important;
+    max-height: 50px !important;
+    min-height: auto !important;
+    min-width: auto !important;
 }
 h1{
     font-size: 2rem;
@@ -84,6 +82,14 @@ ul {
 /* Images */
 img {
     max-width: 100%;
+    min-height: 300px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+p img {
+    max-width: 50%;
     height: auto;
     display: block;
     margin: 10px auto;
@@ -128,8 +134,8 @@ button:hover{
     justify-content: space-between;
     padding: 20px 0;
 }
-.container {
-    background-color: rgb(179, 231, 81);
+/* .container {
+    background-color: #c7e59b;
     padding: 20px;
     margin: 20px auto;
     width: 80%;
@@ -137,39 +143,65 @@ button:hover{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
-}
+} */
 
-.container b {
-    font-size: 1.75em;
-    display: block;
-    margin-bottom: 10px;
+/* Data viz */
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    width: 90%;
+
     
 }
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-left: -15px;
+    margin-right: -15px;
+    text-align: center;
+}
+.col{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.col-9{
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.col-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.col-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+span {
+    font-size: 1.5em;
+    font-weight: bold;
+    color:  hsl(125, 30%, 24%);;
+}
+.container b {
+    font-size: 1.25em;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
 .container p {
-    font-size: 1.2em;
     font-style: bold;
     margin-bottom: 10px;
     text-align: center;
 }
-.story{
-    margin: 20px 0;
-    
-}
-/* Image Styling */
-.container img {
-    min-width: 100%;
-    min-height: 300px;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-img {
-    max-width: 50%;
-    height: auto;
-    display: block;
-    margin: 10px auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+
+
 .text{
     font-size: small;
     color: gray;
